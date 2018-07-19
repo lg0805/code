@@ -12,8 +12,9 @@ alert("hello, world");
 ```
 
 table
-| id | name | age |
-| --- | --- | --- |
-| 1 | ligg | 18 |
+
+|id|name|age|
+|---|---|---|
+|1|ligg|18|
 
 
