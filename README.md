@@ -14,5 +14,5 @@
 
 ### 第二章 第一个 Web 应用程序
 
-3.1  [Bingo 卡片的框架](3-1.html)
+3.1  [Bingo 卡片的框架](3-1.html) [js](script01.js)
 
