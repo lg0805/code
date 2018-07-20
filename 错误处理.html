@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>错误处理</title>
+</head>
+<body>
+	<script>
+	/*
+		错误处理
+
+		1、首先执行 try 语句；
+		2、if 成立，则抛出一个错误，并跳出 try 寻找对应的 catch 语句。
+		3、finally{}块，放在 catch 后面，无论 try 是否抛出错误，里面的代码都要执行。
+	 */
+	window.onload = initAll;
+
+	function initAll(){
+
+		var ans = prompt("Enter a number");
+
+		try{
+			if(!ans || isNaN(ans) || ans <0){
+				throw new Error("Not a valid number!");
+			}
+			alert("This square root of " + ans + " is " + Math.sqrt(ans));
+		}
+		catch(err){
+			alert(err.message);
+		}
+		/*finally{
+			alert("执行完毕！");
+		}*/
+	}
+	</script>
+</body>
+</html>
